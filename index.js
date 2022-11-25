@@ -4,13 +4,13 @@ const receivesAFunction = function (callback) {
   receivesAFunction();
   
   function returnsANamedFunction() {
-    return function namedFn() {
-      console.log("named function");
+    return function n01() {
+     
     };
   }
   
   function returnsAnAnonymousFunction() {
     return function () {
-      console.log(" anonymous function");
-    };
+   
+    }
   }
